@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <!-- Content -->
+    <h2>Elementos que se utilizan en desarrollo Web:</h2>
+
+
+     
+  </body>
+  <script>
+    let log = console.log;
+    // console.log(document);
+
+    /* Función createElement */
+    let listaSinOrden = document.createElement("ul");
+
+    document.body.appendChild(listaSinOrden);
+
+    let elementoLista1 = document.createElement("li");
+    elementoLista1.textContent = "HTML";
+    let elementoLista2 = document.createElement("li");
+    elementoLista2.textContent = "CSS";
+    let elementoLista3 = document.createElement("li");
+    elementoLista3.textContent = "JavaScript";
+
+    listaSinOrden.appendChild(elementoLista1);
+    listaSinOrden.appendChild(elementoLista2);
+    listaSinOrden.appendChild(elementoLista3);
+
+    let newH3 = document.createElement("h3");
+    newH3.textContent = "Hola soy unt texto en color negro";
+    document.body.appendChild(newH3);
+
+    const h3 = document.querySelector("h3");
+    h3.style.color = "#32a852";
+
+    <pre>
+      Respondiendo las preguntas: 
+      Para navegar entre páginas, la etiqueta "a" utiliza el atributo target="_self" 
+      para abrir enlaces en la misma pestaña y target="_blank" para nuevas ventanas. 
+      En la gestión de datos, un submit para el formulario procesara la información de forma
+      nativa recargando la página, mientras que un button permitira manipular los datos 
+      mediante eventos sin interrumpir la experiencia del usuario. Respecto a las direcciones,
+      las rutas absolutas señalan la URL completa 
+      mientras que las rutas relativas vinculan archivos partiendo de la posición del documento ,estas
+      son la mejor práctica para recursos internos, ya que garantizan la portabilidad del proyecto 
+      ante cambios de dominio o carpetas.
+
+    </pre> 
+
+  </script>
+</html>
