@@ -1,0 +1,32 @@
+¿Qué ventajas tiene escribir el código SQL únicamente en la capa del modelo?
+
+Separacion de responsabilidades y se puede voolver a utilizar las querries 
+
+¿Qué es SQL injection y cómo se puede prevenir?
+
+Cuando alguien le mete codigo malicioso a los inputs para modificar la DB
+
+¿Por qué en la práctica las credenciales de Supabase viven en un archivo .env y no directamente en database.js? Menciona al menos dos consecuencias concretas (no teóricas) de haberlas escrito en el código y haber hecho commit.
+
+por que al momento de hacer un commit cualquier persona podria entrar a la BD, ademas de que las credenciales quedan expuestas en github
+
+
+¿Qué problema resuelve usar un pool de conexiones en lugar de abrir y cerrar una conexión nueva en cada request?
+
+Nos ayuda a evitar estar creando y cerrando conexiones en cada pull
+
+En la práctica usaste pool.query(sql, [valor1, valor2]) con placeholders $1, $2 en lugar de armar el query concatenando strings. Muestra un ejemplo corto de un query inseguro y su versión parametrizada, y explica en 2–3 líneas por qué el segundo bloquea una inyección como ' OR 1=1 --.
+
+Inseguro:
+
+const sql = "SELECT * FROM users WHERE email = '" + email + "'";
+
+
+Seguro:
+
+const sql = "SELECT * FROM users WHERE email = $1";
+pool.query(sql, [email]);
+
+
+El primer query permite que el usuario inserte algo como ' OR 1=1 -- y altere la consulta.
+El segundo trata el input como dato, no como codigo
