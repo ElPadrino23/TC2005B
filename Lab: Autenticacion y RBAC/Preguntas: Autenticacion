@@ -1,0 +1,13 @@
+Preguntas. 
+
+Lab Aut
+
+1
+¿Qué otras formas de autentificación existen?
+
+Existen muchas, por ejemplo:
+1-  por tokens, se genera un  token que el usuario envia en cada peticion
+2-  2FA, tipo ademas de utilizar la contraseña, Tambien SMS, autenticador o huella
+3-  Por medio de biometricos, con caracteristicas fisicas del usuario
+4-  OAuth, iniciar session por medio de terceros
+5-  Passwordless, tipo con codigos temporales
