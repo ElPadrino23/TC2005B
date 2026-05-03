@@ -1,27 +1,33 @@
-Trabajo lunes 6
+1
+¿Que elementos hay que configurar para un entorno de produccion?
+Lo mas importante en el entorno de produccion, es: el servidor o servicio de hosting, el dominio y el DNS , base de datos y despliegue
 
-Practica javascript 
-Tomar evidencia de las juntas, necesario para evidencia 
-Vamos a utilizar postgress
+2
+¿Que variables de entorno tienes que crear en tu proyecto?
+Variables del servidor, variables de bases de datos, variables de seguridad y APIs
 
-Trabajo martes 7
-Comenzar con la evidencia 2 de la materia de implementacion
-Procesos hechos a mano 
-al inicio debe traer ambiguedad o recursion izquierda
-ADEMAAAAAAAAAAAAAAAAAAAAaaas terminar el trabajo de lucidchart
+3
+Investiga los tipos de DNS y explícalos
+Las DNS son las que convierten los nombres de dominio en direcciones IPS
+A = relaciona el dominio con una direccion IPV4 
+AAAA = La relaciona con una IPV6
+CNAME = hace que un dominio apunte hacia otro 
+MX = define que servidor recibe correos
+TXT = Guarda texto informativo
+NS = Name server 
+PTR = REaliza resoluciones inversas
+SRV = Define servicios especificos y puertos 
 
+4
+¿Qué significa para un dominio cambiar el registro NS a diferencia de los demás?
+Significa cambiar completamente quien administra ell DNS 
 
-Ejemplos:
-https://github.com/Jesus0204/ElvenGrammar Jesus Alejandro
-https://github.com/paolamgarrido/E2_Grammar Paola María
-	
-Princeton: https://www.cs.princeton.edu/courses/archive/spring20/cos320/LL1/
-Este se necesita para el curso
+5
+Investiga los pros y contras de los certificados SSL gratuitos contra los de pago ¿Qué ventajas y desventajas otorgan? ¿Para cuando se recomendaría usar uno de pago ho en día?
 
-Miercoles: 
+Gratis: Gratis, automatizacion , Seguridad solida, suficiente para la mayoria de sitios
+Contras: menor soporte tecnico, menor participacion empresarial , validaciones basicas
 
-Terminar el trabajo de analisis lexico
-entender ci=omo funciona el movimiento de la recursion. 
-
-Trabao lunes:
-Supabase 
+Paga: 
+pros: Soporte tecnico, validacion empresarial , garantias financieras y mayor confianza corporativa
+contras: costo, configuracion generalmente mas compleja, seguridad tecnica no siempore superior
