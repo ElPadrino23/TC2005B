@@ -1,0 +1,27 @@
+Trabajo lunes 6
+
+Practica javascript 
+Tomar evidencia de las juntas, necesario para evidencia 
+Vamos a utilizar postgress
+
+Trabajo martes 7
+Comenzar con la evidencia 2 de la materia de implementacion
+Procesos hechos a mano 
+al inicio debe traer ambiguedad o recursion izquierda
+ADEMAAAAAAAAAAAAAAAAAAAAaaas terminar el trabajo de lucidchart
+
+
+Ejemplos:
+https://github.com/Jesus0204/ElvenGrammar Jesus Alejandro
+https://github.com/paolamgarrido/E2_Grammar Paola María
+	
+Princeton: https://www.cs.princeton.edu/courses/archive/spring20/cos320/LL1/
+Este se necesita para el curso
+
+Miercoles: 
+
+Terminar el trabajo de analisis lexico
+entender ci=omo funciona el movimiento de la recursion. 
+
+Trabao lunes:
+Supabase 
