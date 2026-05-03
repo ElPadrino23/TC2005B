@@ -1,0 +1,17 @@
+
+1
+¿En qué consiste el control de acceso basado en roles?
+Es un modelo de seguridad de acceso basado en roles, pero aqui los permisos no se asignan de manera directa, si no a roles y despues esos roles se asignan a los usuarios 
+
+
+
+2
+Investiguen y describan 2 sistemas, uno que aplique RBAC y uno que no. Realicen un análisis de las ventajas y desventajas de cada uno con respecto al control de acceso.
+
+Los que si aplican: 
+
+Una empresa que lo utiliza para administrar permisos entre usuario, tipo: Super administrador, administrador de usuarios, administradoir de grupos y usuario estandar
+
+ventajas: buena seguridad, administracion sencilla, escalable y con auditoria bastante clara
+
+desventajas: limitacion de flexibilidad 
